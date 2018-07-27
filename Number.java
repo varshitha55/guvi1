@@ -6,10 +6,10 @@ class Ideone
     	Scanner sc=new Scanner(System.in);
 		long number=sc.nextLong();
 		if(number>0)
-				System.out.println("positive");
+				System.out.println("Positive");
 		else if(number<0)
-				System.out.println("negative");
+				System.out.println("Negative");
 		else
-				System.out.println("zero");
+				System.out.println("Zero");
 	}
 }
